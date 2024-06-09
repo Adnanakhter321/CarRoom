@@ -2,7 +2,7 @@ import { CSSProperties } from "react";
 import { ImageSourcePropType, ViewStyle } from "react-native";
 
 export interface MyViewProps {
-    children:any;
+    children?:any;
     style?:CSSProperties|ViewStyle|object;
     barStyle?: 'default' | 'light-content' | 'dark-content';
     titleBarHidden?:boolean;

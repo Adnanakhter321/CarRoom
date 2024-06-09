@@ -5,12 +5,12 @@ import StyledText from "./component/StyledText";
 import { FontSize, Fonts } from "./constants/Fonts";
 import { Colors } from "./constants/Colors";
 import { Images } from "./assets/images";
-import { SpacerComp } from ".";
 import MyInput from "./component/MyInput";
 
 
 
 const Login = () => {
+  const navigation = useNavigation()
   return (
     <MyView barStyle="dark-content">
       <View style={styles.mainContainer}>
@@ -61,7 +61,7 @@ const Login = () => {
             textStyle={styles.forgotPasswordText} 
           />
         </View>
-        <TouchableOpacity style={styles.loginButton}>
+        <TouchableOpacity style={styles.loginButton} onPress={()=>navigation.navigate('(tabs)')}>
           <StyledText 
             text="Log In" 
             textStyle={styles.loginButtonText} 
@@ -87,7 +87,7 @@ const Login = () => {
         </TouchableOpacity>
         <Text style={styles.registerText}>
           Don’t have an account? 
-          <Text style={styles.registerLinkText}>Register</Text>
+          <Text style={styles.registerLinkText}> Register</Text>
         </Text>
       </View>
     </MyView>

@@ -17,6 +17,7 @@ export const Colors = {
   borderBlue:'#172AF280',
   bordertrr:'#C2D2FF',
   newGray:'#D6D9DC',
+  newBorder:'#E0E0E0',
   light: {
     text: '#11181C',
     background: '#fff',
