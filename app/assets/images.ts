@@ -24,4 +24,12 @@ export const Images = {
     Ic_Menu : require(SourcePath+'ic_menu.png'),
     Ic_Profile : require(SourcePath+'ic_profile.png'),
     Ic_User : require(SourcePath+'ic_user.png'),
+    
+    Ic_Star : require(SourcePath+'ic_star.png'),
+    Ic_Electric : require(SourcePath+'ic_electric.png'),
+    Ic_Location2 : require(SourcePath+'ic_location2.png'),
+    Ic_Manual : require(SourcePath+'ic_seat.png'),
+    ic_Seat : require(SourcePath+'ic_seat.png'),
+    Ic_wish : require(SourcePath+'ic_wish.png'),
+    Ic_carImg : require(SourcePath+'ic_carimg.png'),
 }

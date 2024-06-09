@@ -16,6 +16,12 @@ export interface SpacerType {
     v?:number,
     h?:number,
 }
+export interface ListBoxProps {
+    carName?:string,
+    rating?:string|number,
+    location?:string|number,
+    price?:string|number,
+}
 export interface TextInputProps {
     placeholder?:string,
     placeholderTextColor?:string,
